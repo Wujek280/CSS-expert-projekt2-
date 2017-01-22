@@ -1,0 +1,41 @@
+
+#portfolio {
+    height: 380px;
+    padding: 0;
+    margin:0;
+}
+
+.portfolio-photo {
+    font-size: 0;
+    height: 380px;
+    width: 33.33%;
+    margin:0;
+    padding: 0;
+    float:left;
+    color:#fff;
+}
+
+.inner, .inner-inner {
+    position: absolute;
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 383px;
+    height: 380px;
+    opacity: 0;
+    z-index: 5;
+}
+
+.inner-inner {
+/*    background-color:none; */
+    border: 2px white solid;
+    width:90%;
+    height: 90%;
+    top: 50%; 
+    left: 50%; 
+    transform: translateX(-50%) translateY(-50%); 
+    z-index: 10;
+}
+
+.inner:hover, inner-inner:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
