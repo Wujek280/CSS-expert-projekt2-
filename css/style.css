@@ -9,6 +9,8 @@
 body {
     font-size: 16px;  
     margin:0;
+    background-color: #f9fcfe;
+
 }
 
 nav li {
@@ -21,31 +23,82 @@ nav li {
     color: #1ac056;    
     font-weight: bold;
 }
+li:hover{color: black;}
 
-li:hover{
-    color: black;
+.centerdiv{
+    
+    text-shadow: 0px 0px 2px rgba(255,255,255,0.5);
+
+    color: #fff;
+    text-align: center;
+    position: absolute; 
+    top: 80%; 
+    left: 50%; 
+    transform: translateX(-50%) translateY(-50%);    
 }
+
 section {
     background-color: #f9fcfe;
     font-size: 3em;    
 }
-#centerdiv{
-    color: #fff;
-    text-align: center;
-    position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%);    
+
+article {
+    background-color: #f9fcfe; 
+}
+
+.box {
+    margin:auto; 
+    padding: 100px 100px 100px 30px;
+    background-color: orange;
+    height:500px;
+    width:50%;
+    box-sizing: border-box;
+    font-size: 1.33em;
+}
+
+.box-shadow {
+    box-shadow: 0 4px 20px -2px gray; rgba(0,0,0,0.9);
+    margin-top: -135px;
 }
 
 footer {background-color: #213b50;}
 
-span#nazwisko {
+span.left {
     color: #1ac056;
     font-weight: bold;
 }
 
-span#podpis {
+span.right {
     font-weight: lighter;
     font-size: 0.66em;
     color: #f9fcfe;
+}
 
+#o-mnie,
+#moje-umiejetnosci {
+    position:relative;
+    color:#303030;
+    font-size:2.5em;
+    font-weight: lighter;
+}
 
+#umiejetnosci {
+    box-shadow: none;
+    margin:auto;
+    text-align: center;
+    width: 85%;
+    max-height: 100px;
+    padding-top: 0px;
+}
+
+figure {
+    float:left; 
+    padding:30px;
+    font-weight: lighter;
+    text-align: center; 
+}
+
+#portfolio {
+    width: 85%;
+    background-color: red;
 }
