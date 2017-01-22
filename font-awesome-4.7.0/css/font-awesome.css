@@ -939,7 +939,7 @@
 .fa-quote-right:before {
   content: "\f10e";
 }
-.fa-spinner:before {
+.fa-spportfolio-item-mask:before {
   content: "\f110";
 }
 .fa-circle:before {
@@ -2089,7 +2089,7 @@
 .fa-gitlab:before {
   content: "\f296";
 }
-.fa-wpbeginner:before {
+.fa-wpbegportfolio-item-mask:before {
   content: "\f297";
 }
 .fa-wpforms:before {
