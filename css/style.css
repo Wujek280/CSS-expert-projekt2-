@@ -1,11 +1,29 @@
 * {	
 	font-family: Lato;
-    background-color: lightgray;
-    font-size: 0;
+	color: #291f1a;
+/*    font-size: 0;*/
+    text-decoration: none;
+    
 }
 
 body {
-    font-size: 16px;
-	color: #303030;
+    font-size: 16px;  
+
 }
 
+nav{
+    float:right;
+    display: inline;
+}
+
+.menu{
+    box-sizing: border-box;
+    width: 200px;
+    height: 40px;
+    float:right;
+    color: #1ac056;
+    text-align: center;
+}
+
+section {background-color: #f9fcfe;}
+footer {background-color: #213b50;}
