@@ -1,101 +1,107 @@
-* {	
-	font-family: Lato;
-	color: #291f1a;
-    text-decoration: none;    
+* {
+    font-family: Lato;
+    color: #291f1a;
+    text-decoration: none;
 }
 
 body {
-    font-size: 16px;  
-    margin:0;
+    font-size: 16px;
+    margin: 0;
     background-color: #f9fcfe;
-
+    width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 nav {
     min-height: 40px;
-    width:100%;
+    width: 1360px;
     background-color: #f9fcfe;
-    position:fixed;
+    position: fixed;
     z-index: 30;
     border-bottom: 1px solid #1ac056;
+    margin:auto;
 }
 
 nav li {
-
     width: 150px;
     height: 40px;
     display: inline-block;
-    float:right;
+    float: right;
     text-align: center;
-    color: #1ac056;    
+    color: #1ac056;
     font-weight: bold;
-     z-index: 31;
+    z-index: 31;
 }
-li:hover{color: black;}
 
-.centerdiv{
-    
-    text-shadow: 0px 0px 2px rgba(255,255,255,0.5);
+li:hover {color: black;}
 
+.centerdiv {
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5);
     color: #fff;
     text-align: center;
-    position: absolute; 
-    top: 80%; 
-    left: 50%; 
-    transform: translateX(-50%) translateY(-50%);    
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 section {
     background-color: #f9fcfe;
-    font-size: 3em;    
+    font-size: 3em;
 }
 
 article {
-    background-color: #f9fcfe; 
+    background-color: #f9fcfe;
 }
 
 .box {
-    margin:auto; 
+    margin: auto;
     padding: 100px 100px 100px 30px;
-    height:550px;
-    width:50%;
+    height: 550px;
+    width: 50%;
     box-sizing: border-box;
     font-size: 1.33em;
 }
 
 .box-shadow {
-    box-shadow: 0 4px 20px -2px gray; rgba(0,0,0,0.9);
+    box-shadow: 0 4px 20px -2px gray;
+    rgba(0, 0, 0, 0.9);
     margin-top: -135px;
 }
 
-footer {background-color: #213b50;}
+footer {
+    background-color: #213b50;
+}
 
-span.left {
+.left {
     color: #1ac056;
     font-weight: bold;
 }
 
-span.right {
+.right {
     font-weight: lighter;
     font-size: 0.66em;
     color: #f9fcfe;
 }
 
-.left-cv, .right-cv {
+.left-cv,
+.right-cv {
     background-color: lightblue;
 }
 
 #o-mnie,
 #moje-umiejetnosci,
 #kontaktowo {
-    position:relative;
-    color:#303030;
-    font-size:2.5em;
+    position: relative;
+    color: #303030;
+    font-size: 2.5em;
     font-weight: lighter;
 }
 
 #umiejetnosci {
     box-shadow: none;
-    margin:auto;
+    margin: auto;
     text-align: center;
     width: 85%;
     max-height: 100px;
@@ -103,24 +109,25 @@ span.right {
 }
 
 figure {
-    float:left; 
-    padding:30px;
+    float: left;
+    padding: 30px;
     font-weight: lighter;
-    text-align: center; 
+    text-align: center;
 }
-
 
 #photo1 {
     background-image: url("../gfx/img/portfolio1.jpg");
-    background-color: green;   
+    background-color: green;
 }
+
 #photo2 {
     background-image: url("../gfx/img/portfolio2.jpg");
-    background-color: blue;   
+    background-color: blue;
 }
+
 #photo3 {
     background-image: url("../gfx/img/portfolio3.jpg");
-    background-color: navy;   
+    background-color: navy;
 }
 
 #contact {
@@ -130,49 +137,46 @@ figure {
 
 #kontaktowo {
     font-size: 36px;
-    text-shadow:none;
+    text-shadow: none;
     color: #fff;
 }
 
-
-
-#right-container, #left-container {
-    font-size:16px;
-    padding:40px;
-    height:375px;
+#right-container,
+#left-container {
+    font-size: 16px;
+    padding: 40px;
+    height: 375px;
     color: white;
     box-sizing: border-box;
 }
 
-#right-container{
-    float:right;
+#right-container {
+    float: right;
     padding-right: 120px;
     padding-top: 20px;
     width: 42%;
 }
 
-#left-container{
-    float:left;
+#left-container {
+    float: left;
     padding-left: 120px;
-
 }
 
-.icon{
-    float:left;
+.icon {
+    float: left;
     border: 1px solid white;
     width: 50px;
     height: 48px;
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 15px;
-    color:white;
+    color: white;
     text-align: center;
-    padding-top:2px;
+    padding-top: 2px;
 }
 
-#icon1{
+#icon1 {
     margin-left: 0;
-    
 }
 
 footer {
